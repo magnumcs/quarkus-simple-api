@@ -31,3 +31,8 @@ A quick guide for installing extensions in Quarkus:
 ```
 ./mvnw compile quarkus:dev
 ```
+
+- Create a new project (Example)
+```
+mvn io.quarkus:quarkus-maven-plugin:0.13.1:create -DprojectGroupId=com.portifolio.magnum.quarkus -DprojectArtifactId=quarkus-simple-api -DclassName=”com.portifolio.magnum.quarkus.HelloResource” -Dpath=”/hello
+```
