@@ -1,7 +1,7 @@
 # init-quarkus
 The project: https://quarkus.io/
 
-This is a simple code for learning Quarkus with Rest-API and persistence in Postgres DB.
+This is a simple code for learning Quarkus with Rest-API and persistence in H2 DB.
 
 You will need:
 
@@ -11,7 +11,7 @@ You will need:
 
 - Apache Maven 3.5.3+
 
-- H2.
+- H2 DB.
 
 # Extensions used
 - quarkus-hibernate-orm-panache
